@@ -10,6 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.dhruv.displayname"
         minSdk = 26
+        //noinspection EditedTargetSdkVersion
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -66,4 +67,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    //Icons-expand
+    implementation("androidx.compose.material:material-icons-extended")
 }
